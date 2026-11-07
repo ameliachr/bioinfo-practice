@@ -1,0 +1,9 @@
+name: genomeqc
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - seqkit
+  - ncbi-datasets-cli
+prefix: /home/isao/miniconda3/envs/genomeqc
